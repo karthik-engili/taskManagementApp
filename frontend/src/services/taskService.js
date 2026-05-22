@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = '/api/tasks';
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
+const cleanBaseUrl = API_BASE_URL.replace(/\/api\/?$/, '');
+const API_URL = `${cleanBaseUrl}/api/tasks`;
 
 const getConfig = (token) => ({
   headers: { Authorization: `Bearer ${token}` },
