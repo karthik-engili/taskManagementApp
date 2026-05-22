@@ -27,15 +27,6 @@ This repository contains the backend server for Taskera, a professional full-sta
 
 Ensure you have Node.js and MongoDB installed on your local environment.
 
-### Environment Configuration
-
-Create a file named `.env` in the root of the backend folder and define the following variables:
-
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/taskera
-JWT_SECRET=your_jwt_secret_key_here
-```
 
 ### Installation Commands
 
