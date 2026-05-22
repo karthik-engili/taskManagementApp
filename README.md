@@ -40,23 +40,8 @@ Follow these steps to run the complete MERN application locally.
 ### 1. Database Setup
 Ensure that MongoDB is installed and running on your local machine.
 
-### 2. Configure Environment Variables
 
-Create a `.env` file inside the `/backend` folder:
-
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/taskera
-JWT_SECRET=your_jwt_secret_key_here
-```
-
-Create a `.env` file inside the `/frontend` folder:
-
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-### 3. Run Backend Server
+### 2. Run Backend Server
 Open a terminal in the root project directory, then navigate into the backend folder, install dependencies, and start the development server:
 
 ```bash
@@ -67,7 +52,7 @@ npm run dev
 
 The backend API server will run at `http://localhost:5000`.
 
-### 4. Run Frontend Client
+### 3. Run Frontend Client
 Open a second terminal in the root project directory, then navigate into the frontend folder, install dependencies, and start the development server:
 
 ```bash
