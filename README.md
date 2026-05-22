@@ -2,6 +2,11 @@
 
 Taskera is a professional full-stack MERN (MongoDB, Express, React, Node.js) task management application. It features a modern, fully responsive user interface utilizing Tailwind CSS v4, secure JSON Web Token (JWT) authenticated accounts, a dynamic Kanban board with native drag-and-drop actions, and complete task filtering and search functionality.
 
+## Live Deployments
+
+- **Frontend Client**: [https://task-management-app-coral-xi.vercel.app](https://task-management-app-coral-xi.vercel.app)
+- **Backend API Server**: [https://taskmanagementapp-g95d.onrender.com](https://taskmanagementapp-g95d.onrender.com)
+
 ## Project Structure
 
 The project is divided into two separate service directories:
